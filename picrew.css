@@ -1,0 +1,134 @@
+/*
+   This is also an absolute mess, 
+*/
+
+.play-Imagemaker {
+    height: 100vh !important;
+}
+
+.play-Container {
+    display: block;
+}
+
+.play-Container_Left {
+    height: 0;
+    width: 0;
+}
+
+.play-Imagemaker_Footer {
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+.imagemaker_canvas_wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh !important;
+    width: 100vh;
+    max-height: none;
+    max-width: none;
+    background-repeat: repeat;
+}
+
+.imagemaker_control_wrapper {
+    position: absolute;
+    width: 51.7vw;
+    height: 100vh;
+    right: 0;
+}
+
+#my-canvas-object {
+    object-fit: cover;
+    width: 150%;
+}
+
+.splide__slide {
+    width: 51.7vw !important;
+}
+
+.imagemaker_parts_menu_wrapper {
+    padding-left: 0;
+    top: 66px;
+    z-index: 1001;
+}
+
+.imagemaker_control_panel_wrapper {
+    top: 66px;
+}
+
+.imagemaker_menu_btn {
+    top: -66px;
+    height: 66px;
+    width: 10vw;
+    z-index: 1001;
+}
+
+.imagemaker_ctrl_btns {
+    position: absolute;
+    top: 0 !important;
+    left: 58.2vw;
+    z-index: 1000;
+}
+
+.imagemaker_ctrl_btns span, .imagemaker_info_show_btn {
+    width: 11vw !important;
+    height: 65px !important;
+    border-radius: 0 !important;
+    transition: none !important;
+}
+
+.btn_show_colorpalette {
+    left: 11vw !important;
+}
+
+.btn_show_controller {
+    left: 22vw !important;
+    top: 0 !important;
+}
+
+.none, .disabled {
+    transition: none !important;
+    color: red;
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+}
+
+.disabled::after {
+    display: none;
+    width: 0;height: 0;
+}
+
+.canvas_btn_toggle {
+    width: 0;
+    height: 0;
+}
+
+.imagemaker_info_wrapper {
+    z-index: 1004;
+}
+
+.imagemaker_info_show_btn {
+    top: 0;
+    right: 0;
+    width: 9.1vw !important;
+    z-index: 1005;
+}
+
+.imagemaker_parts_menu {
+    height: 70px !important;
+}
+
+.imagemaker_parts_menu ul li {
+    height: 52px;
+}
+
+.imagemaker_info_show_btn {
+    transform: none;
+}
+
+.c_ad_wrapper {
+    display: none;
+    height: 0;
+}

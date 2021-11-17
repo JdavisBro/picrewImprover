@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "PicrewImprover",
+    "version": "1.0",
+  
+    "description": "Adds a red border to all webpages matching mozilla.org.",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://picrew.me/image_maker/*"],
+        "js": ["scrollbooster.min.js","picrew.js"]
+      }
+    ]
+  
+  }
+  
